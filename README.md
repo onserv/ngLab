@@ -1,17 +1,50 @@
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# GUIDELINES
 
-## Build
+## Prerequisites
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+1) Local Angular / JAVA environment
+2) IDE (vscode)
+3) Alternatively use an online IDE to review code snippets
 
-## Running unit tests
+## To verify angular and java installs, check versions from the command line:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### For example: ng --version
 
-## Running end-to-end tests
+ Angular CLI: 10.0.0
+ Node: 12.18.1
+ OS: win32 x64
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+### For example: java - version
 
-## Further help
+ openjdk 14.0.1 2020-04-14
+ OpenJDK Runtime Environment (build 14.0.1+7)
+ OpenJDK 64-Bit Server VM (build 14.0.1+7, mixed mode, sharing)
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Getting started
+
+Generate a skeleton angular application from command line
+
+### From command line, create workspace folder
+
+mkdir c:\labs\
+cd c:\labs\ 
+ng new ngLab
+choose CSS
+
+Now the angular skeleton application dependencies will download and initialize, once completed
+cd ngLab
+code .
+From vscode terminal, generate component skeleton
+ng generate component collectiontotable
+
+create a second default home page for testing the new feature
+ng generate component home
+
+Now see the code review section for changes
+
+## Code review
+
+Code changes to the default skeletons were made in the following folders/files
+/src/app/collectiontotable contents
+/src/assets/collection1.json
+/src/app/app-routing.module.ts  index.html appcomponent.ts

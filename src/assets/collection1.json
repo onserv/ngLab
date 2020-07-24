@@ -1,0 +1,18 @@
+[{
+  "ID": "001",
+ "Name": "Column1",
+  "Type": "String",
+  "Value": "lorem"
+},
+{
+  "ID": "002",
+  "Name": "Column2",
+  "Type": "String",
+  "Value": "exim"
+},
+{
+  "ID": "003",
+  "Name": "Column3",
+  "Type": "String",
+  "Value": "boris"
+}]
